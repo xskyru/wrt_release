@@ -56,8 +56,8 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v6.0.2
-      - name: SSH connection to Actions
-        uses: P3TERX/ssh2actions@main  
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
 
       - name: Set Build Date and Timezone
         run: |
