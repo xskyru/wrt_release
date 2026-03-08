@@ -26,10 +26,10 @@ on:
           - zn_m2_immwrt
           - zn_m2_libwrt
           - x64_immwrt
-     ssh:
-      description: 'SSH connection to Actions'
-      required: false
-      default: 'true'
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'true'
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
